@@ -1604,25 +1604,13 @@ p {
   color: #fff;
 }
 .appie-hero-area .hero-shape-1 {
-  position: absolute;
-  left: 0;
-  top: 250px;
-  z-index: -1;
-  animation: linear 20s animationFramesOne infinite;
+  display: none;
 }
 .appie-hero-area .hero-shape-2 {
-  position: absolute;
-  left: 80px;
-  z-index: -1;
-  top: 480px;
-  animation: linear 25s animationFramesThree infinite;
+  display: none;
 }
 .appie-hero-area .hero-shape-3 {
-  position: absolute;
-  bottom: 120px;
-  right: 320px;
-  z-index: -1;
-  animation: linear 25s animationFramesFive infinite;
+  display: none;
 }
 .appie-hero-area.appie-hero-4-area {
   background: #f9f9f9;
@@ -2686,25 +2674,13 @@ p {
   overflow: hidden;
 }
 .appie-features-area .features-shape-1 {
-  position: absolute;
-  left: 560px;
-  top: 130px;
-  animation: animationFramesOne 20s linear infinite;
-  z-index: -1;
+  display: none;
 }
 .appie-features-area .features-shape-2 {
-  position: absolute;
-  left: 500px;
-  bottom: 0px;
-  animation: animationFramesThree 20s linear infinite;
-  z-index: -1;
+  display: none;
 }
 .appie-features-area .features-shape-3 {
-  position: absolute;
-  right: 270px;
-  bottom: 0;
-  animation: animationFramesFive 20s linear infinite;
-  z-index: -1;
+  display: none;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -2808,25 +2784,13 @@ p {
   z-index: 10;
 }
 .appie-features-area-2 .features-shape-1 {
-  position: absolute;
-  left: 240px;
-  top: 240px;
-  z-index: -1;
-  animation: linear 20s animationFramesThree infinite;
+  display: none;
 }
 .appie-features-area-2 .features-shape-2 {
-  position: absolute;
-  right: 190px;
-  top: 160px;
-  z-index: -1;
-  animation: linear 20s animationFramesFive infinite;
+  display: none;
 }
 .appie-features-area-2 .features-shape-3 {
-  position: absolute;
-  right: 160px;
-  bottom: 260px;
-  z-index: -1;
-  animation: linear 20s animationFramesOne infinite;
+  display: none;
 }
 .appie-features-area-2.appie-features-area-5 {
   background: #fff;
