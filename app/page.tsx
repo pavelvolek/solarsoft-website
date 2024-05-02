@@ -12,7 +12,7 @@ export default function Home() {
       <section className="w-full">
         {HeroSection()}
       </section>
-      <section className="w-full">
+      <section className="w-full bg-yellow-50">
         {Features()}
       </section>
       <section>
