@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import logo from '../../../public/assets/images/logo.png';
+import logo from '../../../public/assets/solarsoft/logo/solarsoft_logo_hor-w5000px_black.png';
 import Link from "next/link";
 
 function Drawer({ drawer, action, lang }) {
@@ -371,7 +371,7 @@ function Drawer({ drawer, action, lang }) {
                                                     id="contact"
                                                     className="menu-item-has-children active"
                                                 >
-                                                    <Link href="/contact">Contact</Link>
+                                                    <Link href="/contact">Kontakt</Link>
                                                 </li>
                                             </ul>
                                         </div>

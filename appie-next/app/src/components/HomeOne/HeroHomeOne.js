@@ -8,9 +8,8 @@ function HeroHomeOne({ className }) {
                     <div className="row align-items-center">
                         <div className="col-lg-6">
                             <div className="appie-hero-content">
-                                <span>Welcome To Appie</span>
                                 <h1 className="appie-title">
-                                    Manage it all, in this all new system.
+                                    Solarsoft - Spolehlivé dispečerské řízení nejen pro fotovoltaické elektrárny
                                 </h1>
                                 <p>
                                     Hanky panky lavatory up the duff jolly good cack brolly is
@@ -19,19 +18,16 @@ function HeroHomeOne({ className }) {
                                 <ul>
                                     <li>
                                         <a href="#">
-                                            <i className="fab fa-apple" /> Download for iOS
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a className="item-2" href="#">
-                                            <i className="fab fa-google-play" /> Download for
-                                            Android
+                                            <i className="fab fa-apple" /> Nezávazná poptávka
                                         </a>
                                     </li>
                                 </ul>
                             </div>
                         </div>
                         <div className="col-lg-6">
+                            <img src='/assets/solarsoft/logo/solarsoft_symbol_gradient.png' alt="" />
+                        </div>
+                        {/* <div className="col-lg-6">
                             <div className="appie-hero-thumb">
                                 <div
                                     className="thumb wow animated fadeInUp"
@@ -48,7 +44,7 @@ function HeroHomeOne({ className }) {
                                     <img src='/assets/images/hero-thumb-2.png' alt="" />
                                 </div>
                             </div>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
                 <div className="hero-shape-1">

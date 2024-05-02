@@ -29,7 +29,7 @@ function HomeOneHeader({
                                     </Link>
                                 ) : (
                                     <Link href="/">
-                                        <img src="/assets/images/logo.png" alt="" />
+                                        <img src="/assets/solarsoft/logo/solarsoft_logo_hor-w5000px_black.png" alt="" />
                                     </Link>
                                 )}
                             </div>

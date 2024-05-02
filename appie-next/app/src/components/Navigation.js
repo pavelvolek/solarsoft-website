@@ -5,77 +5,7 @@ function Navigation({ lang = false }) {
     return (
         <>
             {lang ? (
-                <ul>
-                    <li>
-                        <a href="#">
-                            أنا <i className="fal fa-angle-down" />
-                        </a>
-                        <ul className="sub-menu">
-                            <li>
-                                <Link href="/">الصفحة الرئيسية 1</Link>
-                            </li>
-                            <li>
-                                <Link href="/home-two">الصفحة الرئيسية 2</Link>
-                            </li>
-                            <li>
-                                <Link href="/home-three">المنزل 3</Link>
-                            </li>
-                            <li>
-                                <Link href="/home-four">المنزل 4</Link>
-                            </li>
-                            <li>
-                                <Link href="/home-five">المنزل 5</Link>
-                            </li>
-                            <li>
-                                <Link href="/home-six">الصفحة الرئيسية 6</Link>
-                            </li>
-                            <li>
-                                <Link href="/home-seven">المنزل 7</Link>
-                            </li>
-                            <li>
-                                <Link href="/home-eight">الصفحة الرئيسية 8</Link>
-                            </li>
-                            <li>
-                                <Link href="/home-dark">الصفحة الرئيسية الظلام</Link>
-                            </li>
-                            <li>
-                                <Link href="/home-rtl">الصفحة الرئيسية Rtl</Link>
-                            </li>
-                        </ul>
-                    </li>
-                    <li>
-                        <Link href="/service">خدمة</Link>
-                    </li>
-                    <li>
-                        <a href="#">
-                            الصفحات <i className="fal fa-angle-down" />
-                        </a>
-                        <ul className="sub-menu">
-                            <li>
-                                <Link href="/about-us">عن</Link>
-                            </li>
-                            <li>
-                                <Link href="/404">خطأ</Link>
-                            </li>
-                        </ul>
-                    </li>
-                    <li>
-                        <a href="#">
-                            أخبار <i className="fal fa-angle-down" />
-                        </a>
-                        <ul className="sub-menu">
-                            <li>
-                                <Link href="/news">صفحة الأخبار </Link>
-                            </li>
-                            <li>
-                                <Link href="/news/single-news">أخبار واحدة</Link>
-                            </li>
-                        </ul>
-                    </li>
-                    <li>
-                        <Link href="/contact">اتصل</Link>
-                    </li>
-                </ul>
+                <span></span>
             ) : (
                 <ul>
                     <li>
@@ -154,7 +84,7 @@ function Navigation({ lang = false }) {
                         </ul>
                     </li>
                     <li>
-                        <Link href="/contact">Contact</Link>
+                        <Link href="/contact">Kontakt</Link>
                     </li>
                 </ul>
             )}

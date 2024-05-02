@@ -15,7 +15,7 @@ function HeaderHomeRtl({ action, className, lang, changeModeLan }) {
                         <div className="col-lg-2 col-md-4 col-sm-5 col-6 order-1 order-sm-1">
                             <div className="appie-logo-box">
                                 <Link href="/">
-                                    <img src='/assets/images/logo.png' alt="" />
+                                    <img src='/assets/solarsoft/logo/solarsoft_logo_hor-w5000px_black.png' alt="" />
                                 </Link>
                             </div>
                         </div>

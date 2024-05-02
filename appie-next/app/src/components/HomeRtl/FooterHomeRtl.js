@@ -10,7 +10,7 @@ function FooterHomeRtl({ className }) {
                             <div className="footer-about-widget text-right">
                                 <div className="logo">
                                     <a href="#">
-                                        <img src='/assets/images/logo.png' alt="" />
+                                        <img src='/assets/solarsoft/logo/solarsoft_logo_hor-w5000px_black.png' alt="" />
                                     </a>
                                 </div>
                                 <p>Appie WordPress هو موضوع هو آخر موضوع ستحصل عليه على الإطلاق.</p>
