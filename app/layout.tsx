@@ -1,8 +1,6 @@
+import './ui/globals.css';
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
-import "./globals.css";
-
-const inter = Inter({ subsets: ["latin"] });
+import { figtree } from "./ui/fonts";
 
 export const metadata: Metadata = {
   title: "Solarsoft - Dispečerské řízení pro fotovoltaické elektrárny",
@@ -16,7 +14,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="cs">
-      <body className={inter.className}>{children}</body>
+      <body className={`${figtree.className} antialiased`}>{children}</body>
     </html>
   );
 }
