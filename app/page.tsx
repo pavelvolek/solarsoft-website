@@ -8,7 +8,7 @@ import Schema from './ui/schema';
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-center bg-white">
-      <header className="max-w-screen-xl w-full">{Header()}</header>
+      <header className="w-full bg-white sticky top-0 opacity-1">{Header()}</header>
       <section className="w-full">{HeroSection()}</section>
       <section className="w-full bg-yellow-50">{Features()}</section>
       <section className="w-full bg-white">{Schema()}</section>
