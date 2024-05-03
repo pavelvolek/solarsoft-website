@@ -2,6 +2,7 @@ import Image from 'next/image';
 import Header from './ui/header';
 import HeroSection from './ui/hero-section';
 import Features from './ui/features';
+import Footer from './ui/footer';
 
 export default function Home() {
   return (
@@ -21,7 +22,7 @@ export default function Home() {
         />
       </section>
       <section id="kontakt">Kontakt</section>
-      <footer>Patička</footer>
+      <footer className="w-full pt-250 pb-250 bg-yellow-50 sm:p-12">{Footer()}</footer>
     </main>
   );
 }

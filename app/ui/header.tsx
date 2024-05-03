@@ -1,4 +1,4 @@
-import Image from 'next/image';
+import Logo from './solarsoft-logo';
 
 export default function Header() {
   const links = [
@@ -16,9 +16,7 @@ export default function Header() {
   return (
     <nav className="bg-white border-gray-200 px-4 lg:px-6 py-2.5">
       <div className="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl">
-        <a href="/" className="flex items-center h-4">
-          <Image className="object-cover" src="/logos-raw/solarsoft_logo_hor-w5000px_blue.png" alt="Solarsoft s.r.o." width={153} height={16} priority />
-        </a>
+        {Logo({ size: 'default' })}
         <div className="flex items-center lg:order-2">
           <a
             href="#"
