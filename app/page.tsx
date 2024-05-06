@@ -1,7 +1,6 @@
 import AboutUs from './ui/about-us';
 import Contact from './ui/contact';
 import EnergyManagement from './ui/energy-management';
-import Features from './ui/features';
 import Footer from './ui/footer';
 import Header from './ui/header';
 import HeaderStrip from './ui/header-strip';
@@ -15,9 +14,8 @@ export default function Home() {
       {Header()}
       {HeroSection()}
       <AboutUs />
+      <Schema />
       {EnergyManagement()}
-      <Features />
-      <section className="w-full bg-white">{Schema()}</section>
       {Contact()}
       {Footer()}
     </main>
