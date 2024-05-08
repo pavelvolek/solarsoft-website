@@ -1,5 +1,5 @@
 import AboutUs from './ui/about-us';
-import Contact from './ui/contact';
+import Contact from './ui/contact-v2';
 import EnergyManagement from './ui/energy-management';
 import Footer from './ui/footer';
 import Header from './ui/header';
