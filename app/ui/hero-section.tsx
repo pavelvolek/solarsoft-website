@@ -9,8 +9,8 @@ export default function HeroSection() {
             <em className="not-italic text-primary-700">Dispečerské řízení</em> pro fotovoltaické elektrárny
           </h1>
           <h2 className="max-w-2xl mb-6 font-normal text-gray-500 lg:mb-10 lg:text-lg  lg:leading-[2rem]">
-            Kompletní dodávka řídících jednotek RTU, splňujících požadavky distributorů na dispečerské řízení dle platných legislativ a nároků na
-            kyberbezpečnost.
+            Poskytujeme kompletní řešení dispečerského řízení na klíč, včetne dodávky řídících jednotek Solarsoft RTU, splňujících požadavky distributorů na
+            dispečerské řízení dle platných legislativ a vysokých nároků na kyberbezpečnost.
           </h2>
           <a
             href="#kontakt"
