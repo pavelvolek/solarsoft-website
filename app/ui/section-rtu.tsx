@@ -25,7 +25,7 @@ export default function SectionRTU() {
     },
     {
       title: 'Přímý monitoring',
-      description: 'Možnost připojení displeje pro snadný monitoring stavu elektrárny.',
+      description: 'Možnost připojení displeje pro přímý monitoring stavu elektrárny.',
       gradient: 'from-rose-300 to-rose-700',
     },
     {
@@ -53,20 +53,18 @@ export default function SectionRTU() {
             Naše jednotka Solarsoft RTU je navržena tak, aby splňovala požadavky distributorů na dispečerské řízení a umožnila nezbytná měření o provozu
             elektrárny.
           </p>
-          <div className="flex flex-col justify-start items-start gap-2 my-10">
+          <div className="flex flex-col justify-center items-start gap-4 my-10">
             {tiles.map((tile) => {
               return (
-                <div key={tile.title} className="flex justify-center items-start gap-4">
-                  <div className="grow-0 shrink-0 flex justify-center items-center mt-1 w-5 h-5 rounded-full shadow-md bg-primary-600">
+                <div key={tile.title} className="flex justify-center items-center gap-3">
+                  <div className="grow-0 shrink-0 flex justify-center items-center w-5 h-5 rounded-full shadow-md bg-primary-600">
                     <svg className="fill-current text-white w-4 h-4" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                       <path d="M17.414,10.586,13.121,6.293,11.707,7.707,15,11H5v2H15l-3.293,3.293,1.414,1.414,4.293-4.293A2,2,0,0,0,17.414,10.586Z" />
                     </svg>
                   </div>
-                  <div>
-                    <h3 className="text-gray-900 mb-2 text-base">
-                      <b>{tile.title}:</b> {tile.description}
-                    </h3>
-                  </div>
+                  <h3 className="text-gray-900 text-base">
+                    <b>{tile.title}:</b> {tile.description}
+                  </h3>
                 </div>
               );
             })}
