@@ -1,6 +1,6 @@
 import classNames from 'classnames';
 
-export default function Features() {
+export default function NaseReseni() {
   interface Tile {
     title: string;
     description: string;
@@ -49,7 +49,7 @@ export default function Features() {
   ];
 
   return (
-    <section id="reseni" className="w-full py-24 bg-primary-50 shadow-inner">
+    <section id="nase-reseni" className="w-full py-24 bg-primary-50 shadow-inner">
       <div className="max-w-screen-xl mx-auto px-4 lg:px-6">
         <div className="max-w-screen-lg mx-auto mb-8 lg:mb-16">
           <h2 className="mb-4 text-center text-5xl leading-[3.5rem] font-bold text-gray-900">Dispečerské řízení od Solarsoftu</h2>

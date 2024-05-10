@@ -1,11 +1,12 @@
-import AboutUs from './ui/about-us';
+import NaseReseni from './ui/nase-reseni';
 import Contact from './ui/contact-v2';
 import EnergyManagement from './ui/energy-management';
 import Footer from './ui/footer';
 import Header from './ui/header';
 import HeaderStrip from './ui/header-strip';
 import HeroSection from './ui/hero-section';
-import Schema from './ui/schema';
+import DispecerskeRizeni from './ui/dispecerske-rizeni';
+import SectionRTU from './ui/section-rtu';
 
 export default function Home() {
   return (
@@ -13,8 +14,9 @@ export default function Home() {
       {HeaderStrip()}
       {Header()}
       {HeroSection()}
-      <AboutUs />
-      <Schema />
+      <NaseReseni />
+      <DispecerskeRizeni />
+      <SectionRTU />
       {EnergyManagement()}
       {Contact()}
       {Footer()}

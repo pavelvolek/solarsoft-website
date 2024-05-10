@@ -2,14 +2,25 @@ import Logo from './solarsoft-logo';
 
 export default function Footer() {
   return (
-    <footer className="w-full pb-8 pt-20 bg-primary-50 ">
+    <footer className="w-full pb-8 pt-8 bg-primary-50 ">
       <div className="px-4 mx-auto max-w-screen-xl">
-        <div className="flex justify-between">
-          <div className="mb-6">
-            {Logo({ size: 'large' })}
-            <p className="text-gray-600 mt-6 mb-6">
-              Dispečerské řízení pro fotovoltaické elektrárny. <br /> Energetický management.
-            </p>
+        <hr className="my-6 border-primary-100 sm:mx-auto lg:my-8" />
+        <div className="pt-10 flex justify-between">
+          <div className="flex flex-col justify-between ">
+            <div>
+              {Logo({ size: 'large' })}
+              <p className="text-gray-600 mt-6 mb-6">
+                Dispečerské řízení pro fotovoltaické elektrárny. <br /> Energetický management.
+              </p>
+            </div>
+            <div>
+              <p className="text-sm text-gray-600">
+                © 2024{' '}
+                <a href="https://solarsoft.cz" className="hover:underline">
+                  Solarsoft s.r.o.
+                </a>
+              </p>
+            </div>
           </div>
           <div className="flex gap-20">
             <div>
@@ -40,7 +51,11 @@ export default function Footer() {
                   </a>
                 </li>
                 <li className="my-3">
-                  <a href="tel:+420603123456" className="flex space-x-3 items-start hover:underline hover:text-primary-900">
+                  <a
+                    href="https://maps.app.goo.gl/jeyTvwZWQwtjbfrE8"
+                    target="_blank"
+                    className="flex space-x-3 items-start hover:underline hover:text-primary-900"
+                  >
                     <svg className="fill-secondary-400  w-[18px] h-[18px] mt-[3px]" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                       <path d="M11.958 24.008L11.2609 23.4105C10.2999 22.6058 1.909 15.3591 1.909 10.0583C1.909 4.50839 6.40811 0.00927734 11.958 0.00927734C17.5079 0.00927734 22.007 4.50839 22.007 10.0583C22.007 15.3592 13.6161 22.6059 12.6591 23.4145L11.958 24.008ZM11.958 2.18217C7.61021 2.18709 4.08686 5.71045 4.08193 10.0582C4.08193 13.3883 9.24437 18.7081 11.958 21.1429C14.6717 18.7071 19.8341 13.3843 19.8341 10.0582C19.8292 5.71045 16.3059 2.18714 11.958 2.18217Z" />
                       <path d="M11.958 14.0416C9.75808 14.0416 7.97467 12.2582 7.97467 10.0583C7.97467 7.85836 9.75808 6.07495 11.958 6.07495C14.158 6.07495 15.9414 7.85836 15.9414 10.0583C15.9414 12.2582 14.158 14.0416 11.958 14.0416ZM11.958 8.06658C10.858 8.06658 9.96634 8.95828 9.96634 10.0582C9.96634 11.1582 10.858 12.0499 11.958 12.0499C13.058 12.0499 13.9497 11.1582 13.9497 10.0582C13.9497 8.95828 13.058 8.06658 11.958 8.06658Z" />
@@ -56,15 +71,15 @@ export default function Footer() {
             </div>
           </div>
         </div>
-        <hr className="my-6 border-primary-100 sm:mx-auto lg:my-8" />
-        <div className="sm:text-left">
+        {/* <hr className="my-6 border-primary-100 sm:mx-auto lg:my-8" /> */}
+        {/* <div className="sm:text-left">
           <span className="text-sm text-gray-500">
             © 2024{' '}
             <a href="https://solarsoft.cz" className="hover:underline">
               Solarsoft s.r.o.
             </a>
           </span>
-        </div>
+        </div> */}
       </div>
     </footer>
   );

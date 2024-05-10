@@ -2,7 +2,7 @@ import Logo from './solarsoft-logo';
 
 export default function Header() {
   const links = [
-    { name: 'Úvod', href: '/' },
+    { name: 'Úvod', href: '/#' },
     {
       name: 'Naše řešení',
       href: '/#reseni',
@@ -22,7 +22,7 @@ export default function Header() {
             <div className="flex items-center lg:order-2">
               <a
                 href="#kontakt"
-                className="uppercase text-white bg-primary-600 hover:bg-primary-700 focus:bg-primary-800 font-semibold rounded-sm text-sm px-4 lg:px-5 py-2 lg:py-2.5 mr-2 hidden sm:block"
+                className="uppercase text-white bg-primary-600 hover:bg-primary-700 focus:bg-primary-800 font-semibold rounded-sm text-sm px-4 lg:px-5 py-2 lg:py-2.5 mr-2 lg:mr-0 hidden sm:block"
               >
                 Konzultace zdarma
               </a>
