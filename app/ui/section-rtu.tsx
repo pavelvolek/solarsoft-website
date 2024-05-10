@@ -41,7 +41,7 @@ export default function SectionRTU() {
   ];
 
   return (
-    <section id="energeticky-management" className="w-full py-0 bg-white">
+    <section id="ridici-jednotka" className="w-full py-0 bg-white">
       <div className="px-4 py-16 mx-auto max-w-screen-xl lg:px-6 lg:grid lg:grid-cols-12 lg:gap-20">
         <div className="col-span-5">
           <Image src="/images/loxone_audioserver.png" alt="Solarsoft RTU" width={648} height={648} priority />

@@ -52,7 +52,7 @@ export default function DispecerskeRizeni() {
   ];
 
   return (
-    <section id="reseni" className="w-full py-16 bg-white">
+    <section id="dispecerske-rizeni" className="w-full py-16 bg-white">
       <div className="max-w-screen-xl mx-auto sm:py-16 px-4 lg:px-6">
         <div className="grid grid-cols-12 gap-16">
           <div className="col-span-7">
