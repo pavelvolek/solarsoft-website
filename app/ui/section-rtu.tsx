@@ -42,17 +42,19 @@ export default function SectionRTU() {
 
   return (
     <section id="ridici-jednotka" className="w-full py-0 bg-white">
-      <div className="px-4 py-16 mx-auto max-w-screen-xl lg:px-6 lg:grid lg:grid-cols-12 lg:gap-20">
+      <div className="px-4 mx-auto max-w-screen-lg lg:px-6 flex flex-col items-center">
+        <p className="text-primary-400 font-medium">Solarsoft RTU</p>
+        <h2 className="mb-4 text-5xl leading-[3.5rem] font-bold text-gray-900">Řídící jednotka Solarsoft</h2>
+        <p className="text-gray-500 text-xl text-center">
+          Naše jednotka Solarsoft RTU je navržena tak, aby splňovala požadavky distributorů <br /> na dispečerské řízení a umožnila nezbytná měření o provozu
+          elektrárny.
+        </p>
+      </div>
+      <div className="px-4 -mt-4 mx-auto max-w-screen-xl lg:px-6 lg:grid lg:grid-cols-12 lg:gap-20 lg:content-center">
         <div className="col-span-5">
           <Image src="/images/loxone_audioserver.png" alt="Solarsoft RTU" width={648} height={648} priority />
         </div>
-        <div className="col-span-7">
-          <p className="text-primary-400 font-medium">Solarsoft RTU</p>
-          <h2 className="mb-4 text-5xl leading-[3.5rem] font-bold text-gray-900">Řídící jednotka Solarsoft</h2>
-          <p className="text-gray-500 text-xl">
-            Naše jednotka Solarsoft RTU je navržena tak, aby splňovala požadavky distributorů na dispečerské řízení a umožnila nezbytná měření o provozu
-            elektrárny.
-          </p>
+        <div className="place-self-center col-span-7">
           <div className="flex flex-col justify-center items-start gap-4 my-10">
             {tiles.map((tile) => {
               return (

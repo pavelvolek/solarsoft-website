@@ -5,7 +5,7 @@ export default function Header() {
     { name: 'Úvod', href: '/#' },
     {
       name: 'Naše řešení',
-      href: '/#reseni',
+      href: '/#nase-reseni',
     },
     {
       name: 'Kontakt',
