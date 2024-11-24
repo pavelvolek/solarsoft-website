@@ -7,7 +7,8 @@ import { figtree } from './ui/fonts';
 
 export const metadata: Metadata = {
   title: 'Solarsoft - Dispečerské řízení pro fotovoltaické elektrárny',
-  description: 'TODO',
+  description:
+    'Poskytujeme kompletní řešení dispečerského řízení na klíč, včetne dodávky řídících jednotek Solarsoft RTU, splňujících požadavky distributorů na dispečerské řízení dle platných legislativ a vysokých nároků na kyberbezpečnost.',
 };
 
 export default function RootLayout({
