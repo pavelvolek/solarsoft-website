@@ -1,4 +1,4 @@
-import Logo from './solarsoft-logo';
+import Logo from '../components/Logo';
 
 export default function Footer() {
   return (
@@ -13,17 +13,17 @@ export default function Footer() {
               <ul className="text-gray-600 mt-6">
                 <li className="my-1">
                   <a href="#dispecerske-rizeni" className="hover:underline hover:text-primary-900">
-                    Dispečerské řízení pro fotovoltaické elektrárny.
+                    Dispečerské řízení pro fotovoltaické elektrárny
                   </a>
                 </li>
                 <li className="my-1">
                   <a href="#energeticky-management" className="hover:underline hover:text-primary-900">
-                    Energetický management.
+                    Energetický management
                   </a>
                 </li>
                 <li className="my-1">
-                  <a href="#ridici-jednotka" className="hover:underline hover:text-primary-900">
-                    Řídící jednotky RTU.
+                  <a href="/ridici-jednotky-rtu" className="hover:underline hover:text-primary-900">
+                    Řídící jednotky RTU
                   </a>
                 </li>
               </ul>

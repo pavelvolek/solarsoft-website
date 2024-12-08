@@ -1,5 +1,5 @@
 import React from 'react';
-import Logo from '../ui/solarsoft-logo';
+import Logo from '../components/Logo';
 
 const PrivacyPolicy = () => {
   return (

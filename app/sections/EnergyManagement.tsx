@@ -1,32 +1,32 @@
 import classNames from 'classnames';
 import Image from 'next/image';
 
-export default function WebApp() {
+export default function EnergyManagement() {
   interface Tile {
-    title: string;
-    description: string;
+    heading: string;
+    text: string;
     gradient: string;
   }
 
   const tiles: Tile[] = [
     {
-      title: 'Přístup odkudkoli',
-      description: 'Spravujte svou elektrárnu z počítače nebo mobilu, ať jste kdekoli.',
+      heading: 'Přístup odkudkoli',
+      text: 'Spravujte svou elektrárnu z počítače nebo mobilu, ať jste kdekoli.',
       gradient: 'from-primary-300 to-primary-700',
     },
     {
-      title: 'Maximální bezpečnost',
-      description: 'Komunikace s elektrárnou splňuje nejvyšší standardy kyberbezpečnosti.',
+      heading: 'Maximální bezpečnost',
+      text: 'Komunikace s elektrárnou splňuje nejvyšší standardy kyberbezpečnosti.',
       gradient: 'from-rose-300 to-rose-700',
     },
     {
-      title: 'Intuitivní ovládání',
-      description: 'Uživatelsky přívětivé rozhraní pro snadné ovládání a přehledy.',
+      heading: 'Intuitivní ovládání',
+      text: 'Uživatelsky přívětivé rozhraní pro snadné ovládání a přehledy.',
       gradient: 'from-emerald-300 to-emerald-700',
     },
     {
-      title: 'Okamžité upozornění',
-      description: 'Dostávejte varování o poruchách a jiných stavech přímo na mobil.',
+      heading: 'Okamžité upozornění',
+      text: 'Dostávejte varování o poruchách a jiných stavech přímo na mobil.',
       gradient: 'from-violet-300 to-violet-700',
     },
   ];
@@ -44,7 +44,7 @@ export default function WebApp() {
           <div className="grid grid-cols-2 gap-12 my-12">
             {tiles.map((tile) => {
               return (
-                <div key={tile.title} className="flex justify-center items-start gap-4">
+                <div key={tile.heading} className="flex justify-center items-start gap-4">
                   <div
                     className={classNames(
                       'grow-0 shrink-0 flex justify-center items-center mt-1 w-6 h-6 rounded-full shadow-md bg-gradient-to-br',
@@ -56,8 +56,8 @@ export default function WebApp() {
                     </svg>
                   </div>
                   <div>
-                    <h3 className="text-gray-900 mb-2 text-xl font-bold">{tile.title}</h3>
-                    <p className="text-gray-500 text-base">{tile.description}</p>
+                    <h3 className="text-gray-900 mb-2 text-xl font-bold">{tile.heading}</h3>
+                    <p className="text-gray-500 text-base">{tile.text}</p>
                   </div>
                 </div>
               );

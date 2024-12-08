@@ -3,7 +3,7 @@ import classNames from 'classnames';
 import Image from 'next/image';
 import { useState } from 'react';
 
-export default function DispecerskeRizeni() {
+export default function DispatchingControl() {
   const [activeTileId, setActiveTileId] = useState<number>(0);
 
   interface Tile {

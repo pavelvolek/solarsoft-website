@@ -1,4 +1,4 @@
-import Logo from './solarsoft-logo';
+import Logo from '../components/Logo';
 
 export default function Header() {
   const links = [
