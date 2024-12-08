@@ -12,7 +12,7 @@ export default function Footer() {
 
               <ul className="text-gray-600 mt-6">
                 <li className="my-1">
-                  <a href="#dispecerske-rizeni" className="hover:underline hover:text-primary-900">
+                  <a href="/dispecerske-rizeni" className="hover:underline hover:text-primary-900">
                     Dispečerské řízení pro fotovoltaické elektrárny
                   </a>
                 </li>
@@ -84,15 +84,6 @@ export default function Footer() {
             </div>
           </div>
         </div>
-        {/* <hr className="my-6 border-primary-100 sm:mx-auto lg:my-8" /> */}
-        {/* <div className="sm:text-left">
-          <span className="text-sm text-gray-500">
-            © 2024{' '}
-            <a href="https://solarsoft.cz" className="hover:underline">
-              Solarsoft s.r.o.
-            </a>
-          </span>
-        </div> */}
       </div>
     </footer>
   );

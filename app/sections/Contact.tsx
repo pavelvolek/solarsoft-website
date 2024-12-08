@@ -32,10 +32,24 @@ export default function Contact({ refId }: Props) {
                   required
                   className="p-2 rounded-sm bg-primary-50 border border-primary-100 focus:border-primary-300 focus:ring-0 focus:outline-none"
                   autoComplete="off"
-                  id="name"
-                  placeholder="Jméno a příjmení"
+                  id="first-name"
+                  placeholder="Jméno"
                 />
               </div>
+              <div className="w-full flex flex-col">
+                <input
+                  type="text"
+                  minLength={3}
+                  maxLength={150}
+                  required
+                  className="p-2 rounded-sm bg-primary-50 border border-primary-100 focus:border-primary-300 focus:ring-0 focus:outline-none"
+                  autoComplete="off"
+                  id="last-name"
+                  placeholder="Příjmení"
+                />
+              </div>
+            </div>
+            <div className="grid md:grid-cols-1 lg:grid-cols-2 gap-4">
               <div className="w-full flex flex-col">
                 <input
                   type="email"
@@ -48,13 +62,25 @@ export default function Contact({ refId }: Props) {
                   placeholder="E-mail"
                 />
               </div>
+              <div className="w-full flex flex-col">
+                <input
+                  type="text"
+                  minLength={5}
+                  maxLength={150}
+                  required
+                  className="p-2 rounded-sm bg-primary-50 border border-primary-100 focus:border-primary-300 focus:ring-0 focus:outline-none"
+                  autoComplete="off"
+                  id="phone"
+                  placeholder="Telefon"
+                />
+              </div>
             </div>
             <div className="w-full flex flex-col">
               <textarea
                 rows={4}
                 required
                 minLength={10}
-                maxLength={500}
+                maxLength={1000}
                 name="message"
                 placeholder="Text zprávy"
                 className="w-full p-2 rounded-sm bg-primary-50 border border-primary-100 focus:border-primary-300 focus:ring-0 focus:outline-none"
@@ -69,7 +95,7 @@ export default function Contact({ refId }: Props) {
                 />
                 <label className="text-sm font-normal text-white" htmlFor="agreement">
                   Souhlasím se zpracováním{' '}
-                  <a href="/" className="underline text-primary-200 hover:text-primary-100">
+                  <a href="/privacy" target="_blank" className="underline text-primary-200 hover:text-primary-100">
                     osobních údajů a podmínkami užití
                   </a>{' '}
                   <em className="text-secondary-200">*</em>
