@@ -1,6 +1,10 @@
 import Section from '../components/Section';
 
-export default function Contact() {
+interface Props {
+  refId: string;
+}
+
+export default function Contact({ refId }: Props) {
   return (
     <Section id="kontakt" fullwidth className="bg-split-background pb-10">
       <div className="relative py-12 px-20 mx-auto max-w-screen-lg text-white bg-primary-800 rounded-lg overflow-hidden z-0 shadow-[0_25px_40px_0_rgba(20,27,77,0.2)]">
@@ -18,6 +22,7 @@ export default function Contact() {
             <p className="sm:text-base font-normal">Potřebujete poradit nebo hledáte konkrétní řešení? Napište nám, rádi na vaše dotazy odpovíme.</p>
           </div>
           <form className="grid gap-4 text-gray-500">
+            <input type="hidden" name="refId" value={refId} />
             <div className="grid md:grid-cols-1 lg:grid-cols-2 gap-4">
               <div className="w-full flex flex-col">
                 <input

@@ -20,7 +20,7 @@ export default function Home() {
       <RtuDetails />
       <EnergyManagement />
 
-      <Contact />
+      <Contact refId="solarsoft_web-homepage" />
       <Footer />
     </main>
   );

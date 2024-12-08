@@ -165,7 +165,7 @@ export default function RTU() {
         </div>
       </Section>
 
-      <Contact />
+      <Contact refId="solarsoft_web-rtu" />
       <Footer />
     </main>
   );
